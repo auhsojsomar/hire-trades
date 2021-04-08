@@ -14,7 +14,8 @@ export default {
 </script>
 
 <style lang="sass">
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+
 body
   font-family: Helvetica, Arial, serif;
 </style>

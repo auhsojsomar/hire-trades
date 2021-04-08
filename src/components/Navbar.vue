@@ -1,14 +1,13 @@
 <template>
-  <div class="navbar">
-    <div class="nav-item">
-      <div class="logo">
+  <div class="navbar navbar-expand-lg p-1">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
         <img src="../assets/images/logo-brand.png" alt="logo-brand" />
         <img src="../assets/images/logo-name.png" alt="logo-name" />
-      </div>
+      </a>
     </div>
   </div>
 </template>
-
 <script>
 export default {
   name: "Navbar",
@@ -23,4 +22,10 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.navbar
+  border-bottom: 1px solid #dfe3e7
+  a
+    img:last-child
+      margin: 5px 0 0 10px
+</style>

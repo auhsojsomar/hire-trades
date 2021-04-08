@@ -15,4 +15,12 @@ export default {
 
 <style>
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, serif;
+}
 </style>

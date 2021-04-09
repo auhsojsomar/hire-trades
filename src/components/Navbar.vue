@@ -58,8 +58,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-$secondary: #7367f0
-$gray: #666
 .navbar
   border-bottom: 1px solid #dfe3e7
   .navbar-toggler-icon

@@ -43,17 +43,10 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "Navbar",
-  props: {
-    title: String,
-  },
-  methods: {
-    onClick() {
-      alert("onClick");
-    },
-  },
 };
 </script>
 

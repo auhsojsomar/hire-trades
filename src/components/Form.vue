@@ -11,6 +11,7 @@
       <span>Postcode or Suburb:</span>
       <input type="text" />
     </div>
+    <button class="btn btn-danger">Post a Job</button>
   </div>
 </template>
 

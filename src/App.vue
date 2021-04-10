@@ -1,6 +1,6 @@
 <template>
+  <Navbar />
   <div class="container-fluid">
-    <Navbar />
     <Form />
     <Works />
     <InspirationPanel />
@@ -37,7 +37,8 @@ export default {
 </script>
 
 <style lang="sass">
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+@import 'bootstrap/scss/bootstrap.scss'
+@import '~@fortawesome/fontawesome-free/css/all.min.css'
 
 body
   font-family: Helvetica, Arial, serif

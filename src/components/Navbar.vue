@@ -77,6 +77,7 @@ export default {
       color: $secondary
       border: 1px solid $secondary
       padding: .4rem 1.5rem
+      font-size: .9rem
       &:hover
         background: $secondary
         color: white
